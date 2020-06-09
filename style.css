@@ -1,0 +1,68 @@
+body{
+    background-color: #FAFAFA;
+}
+#login-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:300px;
+    height:310px;
+    margin:80px auto 0px auto;
+    background:white;
+    border: grey 1px solid;
+}
+#insta-txt{
+    height: 50px;
+    margin: 15px;
+    /* border: 1px black solid; */
+}
+
+.inputbox{
+    border: grey 1px solid;
+    margin: 10px;
+    padding: 5px;
+    width: 75%;
+    background: #FAFAFA;
+}
+
+.btn{
+    width:50%;
+    background-color: #B2DFFC;
+    font-weight: 400;
+    color: white;
+    border: none;
+}
+hr{
+    width: 100px;
+    height: 0.5px;
+    border:0 solid #8EA0C5;
+    
+    background-color: #8EA0C5;
+}
+#or{
+    display: flex;
+    color: #8EA0C5;
+    /* border: 1px solid black; */
+    margin: 20px 0px 0px 0px;
+}
+#fp{
+    color: #0070B8;
+}
+#signup-box{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#signup1{
+    border: 1px solid black;
+    width: 290px;
+    padding: 10px 10px;
+    margin:20px auto;
+    align-self: center;
+}
+#signup2{
+    font-weight:bolder;
+    color:#0070B8;
+    outline:black ;
+    outline-width: 5px;
+}
